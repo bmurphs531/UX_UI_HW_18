@@ -109,15 +109,14 @@ button {
   font-size: 15px;
   border-radius: 20px;
 }
-/* 
+
 .purpleBox {
+  margin-top: -4px;
   width: 1440px;
   height: 111px;
-  flex-shrink: 0;
   border: 8px solid black;
-  opacity: 0.8;
   background-color: #5e0bdf;
-} */
+}
 
 footer {
   display: inline-block;
