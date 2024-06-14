@@ -118,6 +118,48 @@ button {
   background-color: #5e0bdf;
 }
 
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+.myWork {
+}
+
+.workGrid {
+}
+
+.workGrid img {
+}
+
+.img1 {
+}
+
+.img2 {
+}
+
+.img3 {
+}
+
+.img1,
+.img2,
+.img3,
+.content1,
+.content2,
+.content3 {
+}
+.content1 {
+}
+.content2 {
+}
+.content3 {
+}
+
 footer {
   display: inline-block;
   height: 116px;
