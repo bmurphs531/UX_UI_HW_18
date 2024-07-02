@@ -175,14 +175,14 @@ button {
 
 .workGrid img {
   width: 100%;
-  max-width: 375px;
+  max-width: 250px;
   display: flex;
   align-items: center;
 }
 
 .myDoodle img {
-  border: 8px solid black;
-  width: 377px;
+  border: 4px solid black;
+  width: 100%;
   height: 100%;
   float: right;
 }
@@ -282,7 +282,7 @@ button {
 .mySkills {
   display: grid;
   /* width: 1440px; */
-  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: 25% 25% 20% 30%;
   grid-template-rows: 15% 35% 15% 35%;
   grid-template-areas:
     "heading1 heading1 heading1 myDoodle"
@@ -291,8 +291,9 @@ button {
     "tools1 tools2 tools3 myDoodle";
 
   /* added */
-  width: 100%;
+  width: 97%;
   padding-left: 40px;
+  padding-right: 0px;
 }
 
 .myDoodle {
@@ -375,14 +376,29 @@ ul {
 
 .tools1 {
   grid-area: tools1;
+  font-family: Blinker;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .tools2 {
   grid-area: tools2;
+  font-family: Blinker;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .tools3 {
   grid-area: tools3;
+  font-family: Blinker;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* .tools1,
